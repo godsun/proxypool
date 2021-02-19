@@ -2,14 +2,14 @@ package app
 
 import (
 	"errors"
-	"github.com/Sansui233/proxypool/log"
+	"github.com/godsun/proxypool/log"
 
-	"github.com/Sansui233/proxypool/internal/cache"
+	"github.com/godsun/proxypool/internal/cache"
 
 	"github.com/ghodss/yaml"
 
-	"github.com/Sansui233/proxypool/config"
-	"github.com/Sansui233/proxypool/pkg/getter"
+	"github.com/godsun/proxypool/config"
+	"github.com/godsun/proxypool/pkg/getter"
 )
 
 var Getters = make([]getter.Getter, 0)
