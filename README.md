@@ -58,7 +58,7 @@
 需要安装Golang 
 
 ```sh
-$ go get -u -v github.com/Sansui233/proxypool
+$ go get -u -v github.com/godsun/proxypool
 ```
 
 运行
@@ -78,7 +78,7 @@ make
 ### 5. 使用docker
 
 ```sh
-docker pull docker.pkg.github.com/Sansui233/proxypool/proxypool:latest
+docker pull docker.pkg.github.com/godsun/proxypool/proxypool:latest
 ```
 
 ## 使用
