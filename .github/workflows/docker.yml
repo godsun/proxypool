@@ -18,8 +18,8 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v2.3.0
         with:
-          username: sansui233
+          username: godsun
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: sansui233/proxypool/proxypool
+          repository: godsun/proxypool/proxypool
           tag_with_ref: true
